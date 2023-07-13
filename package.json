@@ -1,0 +1,20 @@
+{
+  "name": "indianify",
+  "version": "1.0.0",
+  "description": "ISE Hackathon Project. Supports Make In India initiative.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JBM",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^3.1.3",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "unirest": "^0.6.0"
+  }
+}
