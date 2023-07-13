@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main{
+    width: 100%;
+  
+    height: 100vh;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+
+.navbar{
+    height: 75px;
+    box-shadow: 5px black;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:white;
+    font-size: 35px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+
+.content{
+    width: 100%;
+    height: auto;
+    color: white;
+    position: relative;
+}
+
+.content p{
+    padding-bottom: 20px;
+    font-size: 15x;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin: 0 5% ;
+    text-align: left;
+}
+
+.content h1{
+    font-size: 45px;
+    padding-left: 20px;
+    margin: 0 6px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: white;
+
+}
+
+.content span{
+    color: orange;
+    font-size: 30px;
+    margin-bottom:5%;
+
+}
+.uploadfiles{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-container{
+    display: flex;
+    gap:15px;
+    flex-direction: column;
+    height: 50vh;
+    background-color:transparent;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+  width:auto;
+  padding:  0 20px;
+  border-radius: 10px;
+  border: none;
+  color: #444;
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    margin-right: 20px;
+    border: 2px dotted #000000;
+    border-radius: 5px;
+    background: rgb(239, 159, 10);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type="file"]::file-selector-button:hover {
+    background: #0d45a5;
+  }
+  .drop-container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 200px;
+    width:510px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #555;
+    color: #444;
+    cursor: pointer;
+  }
+  
+  .drop-container:hover {
+    background: #eee;
+    border-color: #111;
+  }
+  
+  .drop-container:hover .drop-title {
+    color: #222;
+  }
+  
+  .drop-title {
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.2s ease-in-out;
+  }
+
+.upload {
+    display: flex;
+    justify-content: center;
+    /* margin: 5px; */
+    /* padding: 10px 15px; */
+    background-color: transparent;
+    border:none;
+    height: auto;
+    width: auto;    
+}
+.submit .upload a:hover{
+    background-color:tomato ;
+    text-decoration: none;
+}
+.submit-btn {
+    background-color: #43c75e;
+    color: #ffff;
+    padding: 10px 15px;
+    border:none;
+    border-radius: 7px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
